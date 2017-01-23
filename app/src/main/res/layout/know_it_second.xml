@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    android:scrollbarThumbVertical="@drawable/custom_scrollbar"
+    android:scrollbarSize="3dp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@drawable/custom_scrollbar"
+        android:scrollbarSize="3dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ladders_gradient"
+                android:id="@+id/second_image" />
+            <TextView
+                android:id="@+id/second_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ladders"
+                android:textColor="@color/dark_red"
+                android:paddingBottom="5dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <android.support.v7.widget.CardView
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:id="@+id/second_desc"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="abcdefgh"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:paddingLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Safety Rules"
+                    android:textSize="20dp"
+                    android:textColor="@color/dark_blue" />
+                <TextView
+                    android:text="●All wood parts must be free from sharp edges and splinters; sound and free from accepted visual inspection from shake, wane, compression failures, decay, or other irregularities.\n● Ladders must be maintained in good condition at all times, the joint between the steps and side rails must be tight, all hardware and fittings securely attached, and the movable parts shall operate freely without binding or undue play.\n● Metal bearings of locks, wheels, pulleys, etc., shall be frequently lubricated.\n● Ladders must be inspected frequently and those which have developed defects must be withdrawn from service for repair or destruction and tagged or marked as Dangerous, Do Not Use.\n● Ladders with broken or missing steps, rungs, or cleats, broken side rails, or other faulty equipment shall not be used; improvised repairs are not allowed."
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/second_safety_rules" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickTypesCard">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/stairsladder"
+                    android:id="@+id/second_types_image" />
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/extra"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ladders"
+                        android:textSize="22sp"
+                        android:textColor="@color/dark_red"
+                        android:layout_centerVertical="true"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/extra"
+                        android:text="Types"
+                        android:textSize="22sp"
+                        android:textColor="@color/dark_blue"
+                        android:textAlignment="center"
+                        android:layout_marginTop="45dp"
+                        android:id="@+id/types"
+                        android:layout_marginLeft="50dp" />
+                    <ImageView
+                        android:layout_toRightOf="@+id/types"
+                        android:layout_marginTop="50.5dp"
+                        android:src="@drawable/fourth_icon_types"
+                        android:elevation="1dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

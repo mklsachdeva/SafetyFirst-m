@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="3dp"
+    android:layout_margin="4.5dp"
+    app:cardBackgroundColor="#ffffff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/Lawimage"
+        android:background="@drawable/form_backgrond"
+        android:alpha=".3"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="#002e48"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/Lawtext"
+        android:textStyle="bold"
+        />
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,396 @@
+<resources>
+    <string name="app_name">Safety First</string>
+
+
+    <string name="login"><u><b>Login</b></u></string>
+    <string name="action_settings">Settings</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="feedback"><b><u>Give Your Feedback</u></b></string>
+
+    <string name="slide_1_title">News</string>
+    <string name="slide_1_desc">Get the latest news of your industry!</string>
+
+    <string name="slide_2_title">Law</string>
+    <string name="slide_2_desc">Discuss the issues with experts all round the globe</string>
+
+    <string name="slide_3_title">Discussion</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">Know it</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="no_data_available">Please check your internet connection</string>
+    <string name="readMore">Read More</string>
+
+    <string name="transition_string">hello</string>
+    <string name="news">News</string>
+    <string name="knowit">Know it</string>
+
+    <string name="sign_up"><u><b>Sign Up</b></u></string>
+    <string name="sign_in">Sign In</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Password</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="heading_recent">Recent</string>
+    <string name="heading_my_posts">My Posts</string>
+    <string name="heading_my_top_posts">My Top Posts</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="titleNewsActivity">News</string>
+    <string name="titleDashboard">Safety First</string>
+    <string name="titleDiscussionActivity">Discussion Forum</string>
+    <string name="titleNewPostActivity">Ask A Question</string>
+    <string name="titlePostDetailActivity">Post Details </string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="WelcomeDetails">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod, tempor incididunt ut labore et
+     dolore magna aliqua. Ut enim ad minim veniamm quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in vouptate velit esse cillum dolore eu fugiat nulla pariatur, Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
+
+
+    <string name="title_activity_feed">FeedActivity</string>
+    <string name="server_client_id">85010793512-5t8ejsijkp68vgudb9jn00ct1tnrgoac.apps.googleusercontent.com</string>
+    <string name="server_widget_url">http://www.google.com</string>
+
+    <string name="title_activity_feeds">FeedsActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Content Description for images -->
+    <string name="desc_google_icon">Google Logo</string>
+    <string name="server_client_id_web">85010793512-guh26t71dh519hp1il371it4bq4kil0h.apps.googleusercontent.com</string>
+    <string name="project_id">friendlypix-4fa22</string>
+    <string name="title_activity_welcome">FriendlyPix</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="explore_button_text">explore</string>
+    <string name="sign_in_button_text">sign in</string>
+    <string name="sign_out_button_text">sign out</string>
+    <string name="show_feed_button_text">show feed</string>
+    <string name="drawer_profile_title">Profile</string>
+    <string name="drawer_settings_title">Settings</string>
+    <string name="drawer_your_feed_title">Your Feed</string>
+    <string name="title_activity_comments">CommentsActivity</string>
+    <string name="title_activity_new_post">New Post</string>
+    <string name="invite_friends_button_text">Invite your friends</string>
+    <string name="my_posts_button_text">My posts</string>
+    <string name="title_activity_user_detail">UserDetailActivity</string>
+    <string name="follow_user_error">Unable to follow user.</string>
+    <string name="picture_chooser_title">Select or take picture to post</string>
+    <string name="new_comment_hint">Enter new comment</string>
+    <string name="new_post_location_placeholder">Getting location...</string>
+    <string name="user_info_no_name">Unknown user</string>
+    <string name="error_required_field">Required</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="error_upload_task_create">Couldn\'t create upload task.</string>
+    <string name="default_progress_message">Please wait...</string>
+    <string name="profile_progress_message">Signing in...</string>
+    <string name="post_upload_progress_message">Uploading...</string>
+    <string name="user_logged_out_error">You must be logged in to do that.</string>
+    <string name="error_user_not_signed_in">Error user not signed in.</string>
+    <string name="title_activity_feed_activity_copy">FeedActivityCopy</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_pic">PicActivity</string>
+
+    <string name="ladders_heading">Ladders</string>
+    <string name="scaffolding_heading">Scaffoldings</string>
+    <string name="news_heading">Latest</string>
+    <string name="fav_heading">Fav</string>
+    <string name="lorem">Nothing found!</string>
+    <string name="search_activity">Search Activity</string>
+    <string name="send_to">Share using..</string>
+    <string name="action_image">Image</string>
+    <string name="action_video">Video</string>
+    <string name="action_file">File</string>
+    <string name="action_link">Link</string>
+    <string name="title">Title</string>
+    <string name="write_your_post">Enter your question</string>
+
+    <string name="attach_link">Attach Link</string>
+
+    <string name="image">Image</string>
+    <string name="file">File</string>
+    <string name="video">Video</string>
+    <string name="link">Link</string>
+
+    <string name="facebook_app_id">510719265719344</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_photos">Photos</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- APP INVITES-->
+    <string name="invitation_title">Send Safety First Invitation</string>
+    <string name="invitation_message">This app is terrific, give it a try.</string>
+    <string name="invitation_deep_link">http://example.com/offer/five_dollar_offer</string>
+    <string name="invitation_custom_image">https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png</string>
+    <string name="invitation_cta">Install!</string>
+    <string name="send_failed">Sending invitations failed</string>
+    <string name="invite_dialog_title">You got an invitation!</string>
+    <string name="invite">Send invitations!</string>
+    <string name="welcome">Invites</string>
+    <string name="referrer_hint">Deep link not provided</string>
+    <string name="deep_link_default">Deep link not set</string>
+    <string name="invitation_id_default">Invitation ID not set</string>
+    <string name="invite_friends">Invite Friends</string>
+
+    <string name="deep_link_fmt" formatted="false">Deep Link: %s</string>
+    <string name="invitation_id_fmt" formatted="false">Invitation ID: %s</string>
+
+    <string name="sent_invitations_fmt" formatted="false">Sent %d invitations</string>
+    <string name="item_title">News Headline</string>
+    <string name="item_desc">Article</string>
+
+    <string name="spinner_title">Join As</string>
+    <string name="delete_post">Delete Post</string>
+
+
+
+
+   <string name="dummy1">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod, tempor incididunt ut labore et
+     dolore magna aliqua. Ut enim ad minim veniamm quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in vouptate velit esse cillum dolore eu fugiat nulla pariatur, Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
+    <string name="dummy2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</string>
+    <string name="dummy3">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="forklift">A forklift is also known as a lift truck essentially because it’s a truck that  can lift loads using a set of forks. A forklift can be used in numerous  places such as warehouses, factories, farms, shipping yards and much  more. There are many types of forklifts which can be called a variety of  different names; in this case we will use the basic names of the forklifts  when describing their capabilities.</string>
+    <string name="forksafety">●Check fork blades for wear. Forks are constantly subjected to abrasion by concrete floors, steel shelving, etc. This abrasion can reduce the thickness of a fork until it cannot lift loads up to the designed capacity.\n●Check for distortion. Forks can be bent out of shape. Dependingon distortion, some forks can be straightened. The fork manufacturer is best qualified to correct this. Your local forklift supplier can make the arrangements.\n●Check for cracks in heel and hanger. Cracks may appear on forks where attachments are welded on or in the inside radius of the bend area. Periodic inspection using a magnetic particle or dye penetrant test can detect cracks.\n●Replace, when necessary, with good quality forks. When ordering or reordering forks, make sure you are getting high quality forks that will do your lifting jobs safely. Insist on forged forks or ones with an upset heel.\n●Do not exceed the recommended load limit of your lift truck. Each lift truck has a maximum load limit. The load limit is shown on the data plate of the lift truck.</string>
+
+
+<string name="factory">The main objective of the Act is not only to ensure adequate safety measures but also to promote health and welfare of the workers employed in factories as well as to prevent haphazard growth of factories.
+\n
+To ensure safety of the workers, the Act has provided several measures such as compulsory fencing of machines of all sorts. No person should be employed in any factory to lift, carry or move any load so heavy as to be likely to cause him injury. If it appears to the Inspector that any building or part of a building or any part of the ways, machinery or plant in a factory is in a condition that it is dangerous to human life or safety, he may serve on the Manager of the factory, an order in writing, specifying the measures which in his opinion should be adopted and requiring them to be carried out before a stipulated date.
+</string>
+
+    <string name="mines">
+The Mines Act, 1952 contains provisions for measures relating to the health, safety and welfare of workers in the coal, metalliferous and oil mines. According to the Act,the term ‘mine’ means “any excavation where any operation for the purpose of searching for or obtaining minerals has been or is being carried on and includes all borings, bore holes, oil wells and accessory crude conditioning plants, shafts, opencast workings, conveyors or aerial ropeways, planes, machinery works, railways, tramways , slidings, workshops, power stations, etc. or any premises connected with mining operations and near or in the mining area”.The Act prescribes the duties of the owner to manage mines and mining operation and the health and safety in mines. It also prescribes the number of working hours in mines, the minimum wage rates, and other related matters.
+</string>
+    <string name="dock">
+An Act to provide for the safety, health and welfare of dock workers and for matters connected therewith.
+The appropriate Government, may, by notification in the Official Gazette, appoint such person as it thinks fit to be the Chief Inspector of Dock Safety and such persons as it thinks fit to be Inspectors subordinate to the Chief Inspector for the purpose of this Act at such ports as may be specified In the notification.
+</string>
+    <string-array name="options">
+        <item>Choose Photo From Gallery</item>
+        <item>Take Photo</item>
+    </string-array>
+
+    <!--FAQs (Questions)-->
+    <string-array name="faq_ques">
+        <item>What is the objective behind the development of the app?</item>
+        <item>Which are the Safety Laws currently available?</item>
+        <item>Who are the people behind the development of the app?</item>
+        <item>Why is the information provided in the Know It section so Limited?</item>
+        <item>Who are the people who will be replying to the queries in the Discussion forum?</item>
+        <item>Who will be responsible if the advice given in the Discussion Forum is incorrect?</item>
+
+        <!--FAQs (Answers)-->
+    </string-array>
+    <string-array name="faq_answers">
+
+        <item>To create a platform for all the HSE officers to connect and share knowledge,
+            increase safety awareness , provide solutions to the HSE officers in real time
+            so they could make their workplace a safer place.</item>
+
+        <item>Currently we are providing only Indian Laws namely-Labour law.
+            We will be updating the app with Osha,Nebosh etc Guidelines as well.</item>
+
+        <item>Vinay,Sanchit,Samarth,vikas students of Delhi College of Engineering with
+            funding from angel investors.</item>
+
+        <item>Even though the first version of the app has been released but we are continuously
+            adding new segments to the Know It section to make it more informative.</item>
+
+        <item>Safety officers across the globe will be answering the questions. If not answered
+            in a given time frame we will try our best so that a safety officer may answer
+            your query.</item>
+
+        <item>We will not be responsible for any mishap or causality caused due to any answer in
+            the app. This has been included in the terms and condition. This app is only a platform
+            to connect like minded people and discuss and share knowledge.</item>
+
+    </string-array>
+    <string name="terms_string"><u>Terms and Conditions</u></string>
+    <!--TermsAndConditions-->
+    <string name="terms_and_conditions">
+        By downloading the application SAFETY FIRST  (here after referred to as “The Company”),
+        installing or using this application or any portion thereof (“Application”), you agree to
+        the following terms and conditions (the “Terms and Conditions”).\n\n
+<font fgcolor="black"><b>USE OF APPLICATION</b></font>\n\n
+a. The Company grants you the non-exclusive, non-transferable, limited right and license to install
+        and use this Application solely and exclusively for your personal use.\n
+b. You are prohibited from using the Application in any manner that could damage, disable,
+        overburden, or impair the Application (or servers or networks connected to the Application),
+        or using the Application in any manner that could interfere with any other party’s use and
+        enjoyment of the Application (or servers or networks connected to the Application).\n
+c. You agree that you are solely responsible for, and that the Company has no responsibility to you
+        or to any third party for) your use of the Application.\n\n
+You agree that you are solely responsible for any breach thereof of your obligations, and for the
+        consequences (including any loss or damage which The Company may suffer) of any such breach.\n\n
+<font fgcolor="black"><b>PROPRIETARY RIGHTS</b></font>\n\n
+You acknowledge that (a) the Application holds proprietary and confidential information that is
+        protected by the applicable intellectual property and other laws prevailing in India and
+        worldwide, and (b) The Company and/or third parties own the right, title and interest in
+        and to the Application and all content, that may be presented or accessed through the
+        Application, including without limitation all Intellectual Property Rights therein and thereto.\n\n
+
+“Intellectual Property Rights” means any and all rights recognised from time to time under the
+        patent law, copyright law, trademark law, in relation to the developed application, its
+        renewals, extensions and restorations thereof.\n\n
+You further agree that you will not, and will neither allow any third party to, (i) copy, sell,
+        license, distribute, transfer, modify, adapt, translate, prepare derivative works from,
+        decompile, reverse engineer, disassemble or otherwise attempt to derive source code from
+        the Application or content that may be presented or accessed through the Application for
+        any purpose, (ii) take any action to circumvent or defeat the security or content usage
+        rules provided, deployed or enforced by any functionality (including without limitation
+        digital rights management functionality) contained in the Application, (iii) use the
+        Application to access, copy, transfer, transcode or retransmit content in violation of any
+        law or third party rights, or (iv) remove, obscure, or alter the Company’s or any third
+        party’s copyright notices, trademarks, or other proprietary rights notices affixed to or
+        contained within or accessed in conjunction with or through the Application.\n\n
+<font fgcolor="black"><b>3. THE COMPANY TERMS OF SERVICE AND PRIVACY POLICY</b></font>\n\n
+a. The Company’s Privacy Policy (located at http://www.google.com/privacypolicy.html) explains how
+        the Company treats your information and protects your privacy when you use the Application.
+        You agree to the use of your data in accordance with the Company’s privacy policies.\n
+b. The Application may contain features that are used in conjunction with the Company’s search and
+        other services. Accordingly, your use of such features of the Application is also governed
+        by The Company’s Terms of Service located at http://www.google.com/terms_of_service.html,
+        The Company’s Privacy Policy located at http://www.google.com/privacypolicy.html, as well
+        as any applicable The Company Service-specific Terms of Service and Privacy Policy, which
+        may be updated from time to time and without notice.\n\n
+<font fgcolor="black"><b>6. TERMINATION</b></font>\n\n
+a. These Terms and Conditions will continue to apply until terminated by either you or the Company
+        as set forth below. You may note however that termination thereof will not absolve you of
+        any consequences that follow as respects acts and things done at the time of usage of the
+        application. \n
+b. You may terminate these Terms and Conditions at any time by permanently deleting the Application
+        from your mobile device in its entirety.\n
+c. Your rights automatically and immediately terminate without notice from The Company or any Third
+        Party if you fail to comply with any provision of these Terms and Conditions. In such event,
+        you must immediately delete the Application.\n\n
+<font fgcolor="black"><b>7. INDEMNITY</b></font>\n\n
+To the maximum extent permitted by law, you agree to defend, indemnify and hold harmless The Company,
+        its affiliates and their respective directors, officers, employees and agents from and
+        against any and all claims, actions, suits or proceedings, as well as any and all losses,
+        liabilities, damages, costs and expenses (including reasonable attorneys fees) arising out
+        of or accruing from your use of the Application, including your downloading, installation,
+        or use of the Application, or your violation of these Terms and Conditions.\n\n
+<font fgcolor="black"><b>8. Disclaimer of Warranties</b></font>\n\n
+A. You expressly understand and agree that your use of the application is at your sole discretion
+        and risk and that the application is provided as is and as available without warranty of
+        any kind.\n
+B. You are solely responsible for any damage to your mobile device, or other device, or loss of data
+        that results from such use.\n
+C. The Company is not responsible for the authenticity of any content hosted on the application and
+        any consequences that may follow as a result of following the content thereof.\n
+D. The company further expressly disclaims all warranties and conditions of any kind, whether
+        express or implied, including, but not limited to the implied warranties and conditions of
+        merchantability, fitness for a particular purpose and non-infringement, with respect to the
+        application.\n\n
+
+<font fgcolor="black"><b>9. Limitation of liability</b></font>\n\n
+You expressly understand and agree that the company, its subsidiaries and affiliates, and its
+        licensors are not liable to you under any theory of liability for any direct, indirect,
+        incidental, special consequential or exemplary damages that may be incurred by you through
+        your use of the application, including any loss of data or damage to your mobile device,
+        whether or not the company or its representatives have been advised of or should have been
+        aware of the possibility of any such losses arising.\n\n
+
+<font fgcolor="black"><b>10. MISCELLANEOUS</b></font>\n\n
+a. These Terms and Conditions constitute the entire Agreement between you and The Company relating
+        to the Application and govern your use of the Application, and completely replace any prior
+        or contemporaneous agreements between you and The Company regarding the Application.\n
+b. The failure of The Company to exercise or enforce any right or provision of these Terms and
+        Conditions does not constitute a waiver of such right or provision, which will still be
+        available to The Company.\n
+c. If any court of law, having the jurisdiction to decide on this matter, rules that any provision
+        of these Terms and Conditions is invalid, then that provision will be removed from the
+        Terms and Conditions without affecting the rest of the Terms and Conditions. The remaining
+        provisions of these Terms and Conditions will continue to be valid and enforceable.\n\n
+
+As a condition of use you agree to not use the Services for any purpose that are unlawful or
+        prohibited by these Terms, or any other purpose not reasonably intended by Safety First By
+        way of example, and not as a limitation you agree not to use the Services:\n\n
+
+To abuse, harass, threaten, impersonate or intimidate any person;\n\n
+To post or transmit, or cause to be posted or transmitted, any Content that is illegal, defamatory,
+        obscene pornographic, abusive. offensive, profane, or that infringes any copyright or other
+        right of any person; For any purpose (including posting or viewing Content) that is not
+        permitted under the laws of the jurisdiction  where  you use the Services;\n\n
+
+To post or transmit, or cause to be posted or transmitted, any communication or solicitation
+        designed or intended to obtain password. account, or private information from any Safety
+        First user\n\n
+
+To create or transmit unwanted ‘spam’ to any person or any URL\n\n
+
+To create multiple accounts for the purpose of voting for or against users photographs or images;\n\n
+To post copyrighted Content which doesn’t belong to you, with exception of Blogs where you may post
+        such Content explicit mention of the authors name and a link to the source of the Content\n\n
+With the exception of accessing RSS feeds, you will not use any robot, spider, scraper or other
+        automated means to access the Se for any purpose without our express written permission.\n\n
+Additionally. you agree that you will not: (i) take any action that imposes, or may impose in our
+        sole discretion an unreasonable or disproportionately large load on our infrastructure:
+        (I) interfere or attempt to interfere with the proper working of the Site or any activities
+        concluded on the Site, or (ii) bypass any measures we may use to prevent or restrict access
+        to the Site,\n\n
+
+To artificially inflate or alter vote counts, blog counts. comments or any other Service or for
+        the purpose of giving or receiving money or other compensation in exchange for votes, or for
+        participating in any other organized effort that ii any way artificially alters the results
+        of Services:\n\n
+To advertise to, or so, any user to buy or sell any products or services, orb use any information
+        obtained from the Services in order to contact, advertise to, solicit, or sell any user
+        without prior explicit consent To promote or sell Content of another person\n
+
+    </string>
+
+
+</resources>

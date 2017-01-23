@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFF7FF">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/nationallaws"
+            android:layout_marginLeft="58dp"
+            android:layout_marginRight="58dp"
+            >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@android:color/holo_red_dark"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv1"
+            android:layout_marginRight="2dp"
+            android:id="@+id/line1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="National Laws"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_red_dark"
+            android:id="@+id/tv1"
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="@android:color/holo_red_dark"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/tv1"
+            android:layout_marginLeft="2dp"
+
+            /></RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/nationallaws"
+            android:orientation="horizontal"
+            android:id="@+id/laws"
+            >
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="5dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:id="@+id/cardview1"
+                android:onClick="onClick"
+                android:clickable="true"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/nationallaw1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="8dp"
+                    android:alpha=".3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mines Act"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="#002e48"
+                    android:layout_margin="8dp"
+
+                    />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="5dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:id="@+id/cardview2"
+                android:onClick="onClick"
+                android:clickable="true"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/nationallaw2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="8dp"
+                    android:alpha=".3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Factories Act"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:textColor="#002e48"
+                    android:textStyle="bold"
+                    android:layout_margin="8dp"
+                    />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="5dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:id="@+id/cardview3"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/nationallaw3"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="8dp"
+                    android:alpha=".3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dock Workers Act"
+                    android:textSize="16dp"
+                    android:textColor="#002e48"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_margin="8dp"
+                    />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/statelaws"
+            android:layout_below="@id/laws"
+            android:layout_marginLeft="58dp"
+            android:layout_marginRight="58dp"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp"
+                android:background="@android:color/holo_red_dark"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@+id/tv2"
+                android:layout_marginRight="2dp"
+                android:id="@+id/line2"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp"
+                android:background="@android:color/holo_red_dark"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/tv2"
+                android:layout_marginLeft="2dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="State Laws"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:id="@+id/tv2"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:fadeScrollbars="false"
+            android:id="@+id/StateLawsRecycler"
+            android:layout_below="@+id/statelaws"
+            android:scrollbars="vertical"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+
+</RelativeLayout>

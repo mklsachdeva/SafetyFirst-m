@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vikas.dtu.safetyfirst2.FeedBackActivity"
+    android:weightSum="1">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Rate Us"
+    android:paddingTop="@dimen/md_keylines"
+    android:paddingBottom="@dimen/md_keylines"
+    style="@style/TextAppearance.AppCompat.Large"
+    android:layout_gravity="center_horizontal"
+    android:textColor="@color/colorAccentDark"/>
+
+    <ImageView
+        android:id="@+id/stars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/stars0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingTop="@dimen/md_keylines"
+        android:paddingBottom="@dimen/md_keylines"
+        android:text="How do you feel about the help you received?"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorAccentDark"/>
+
+    <ImageView
+        android:id="@+id/very_good"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/very_good"/>
+    <ImageView
+        android:id="@+id/good"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/good"/>
+    <ImageView
+        android:id="@+id/satisfactory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/satisfactory"/>
+    <ImageView
+        android:id="@+id/bad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bad"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="@dimen/md_keylines"
+        android:paddingBottom="@dimen/md_keylines"
+        android:text="Thanks. Anything else that you would like to add."
+        style="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@color/colorAccentDark"/>
+
+
+    <EditText
+        android:id="@+id/field_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="5dp"
+        android:inputType="textMultiLine"
+        android:textIsSelectable="true"
+        android:maxLines="10"
+        android:scrollHorizontally="false"
+        android:layout_weight="11.50" />
+
+
+    <ImageView
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/submit"/>
+
+
+</LinearLayout>
+</ScrollView>

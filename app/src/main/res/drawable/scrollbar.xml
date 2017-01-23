@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/scroll"
+        android:width="5dp"
+        android:height="50dp">
+        <shape
+            android:padding="10dp"
+            android:shape="rectangle" >
+            <size
+                android:height="20dp"
+                android:width="1dp" />
+            <gradient
+                android:angle="45"
+                android:centerColor="@color/dark_red"
+                android:endColor="@color/dark_red"
+                android:startColor="@color/dark_red" />
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+
+</layer-list>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:transitionName="@string/transition_string"
+    android:layout_gravity="center"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="@dimen/md_keylines"
+    android:layout_marginRight="@dimen/md_keylines"
+    android:foreground="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/movieImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_image_height"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            tools:src="@drawable/placeholder" />
+
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_title_height"
+            android:layout_alignBottom="@+id/movieImage"
+            android:textAlignment="center"
+            android:text="Name"
+            android:textIsSelectable="true"
+            android:background="@color/colorAccent"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical"
+            android:alpha="1"
+            android:textColor="@color/white"
+            android:layout_alignParentLeft="true"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=""
+            android:id="@+id/articleTxt"
+            android:layout_marginLeft="@dimen/md_keylines"
+            android:layout_marginTop="@dimen/md_keylines"
+            android:layout_marginBottom="@dimen/md_keylines"
+            android:layout_marginRight="@dimen/md_keylines"
+            android:layout_below="@+id/nameTxt"
+            android:ellipsize="end"
+            android:singleLine="false"
+            android:maxLines="4"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/article_subheading" />
+        <Button
+            android:id="@+id/readMoreBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@null"
+            android:text="@string/readMore"
+            android:layout_below="@+id/movieImage"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textAllCaps="false"
+            android:textColor="@android:color/darker_gray" />
+
+        <ImageButton
+            android:id="@+id/share_button"
+            android:layout_width="@dimen/cards_button_width"
+            android:layout_height="@dimen/cards_button_height"
+            android:layout_marginRight="@dimen/md_keylines"
+            app:srcCompat="@drawable/ic_share"
+            android:layout_below="@+id/articleTxt"
+            android:layout_alignParentRight="true"
+            style="?android:attr/borderlessButtonStyle"
+            android:tint="@color/button_grey"/>
+
+        <ImageButton
+            android:id="@+id/favorite_button"
+            android:layout_width="@dimen/cards_button_width"
+            android:layout_height="@dimen/cards_button_height"
+            android:layout_marginRight="@dimen/md_keylines"
+            app:srcCompat="@drawable/ic_favorite"
+            android:layout_below="@+id/articleTxt"
+            android:layout_toLeftOf="@id/share_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:tint="@color/button_grey"/>
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

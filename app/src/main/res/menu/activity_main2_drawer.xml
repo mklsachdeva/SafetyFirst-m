@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_help_white_24dp"
+            android:title="FAQs">
+        </item>
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_thumb_up_white_24dp"
+            android:title="Help" >
+        </item>
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_forum_white_24dp"
+            android:title="Feedback"/>
+
+        <item
+            android:id="@+id/nav_invite"
+            android:icon="@drawable/ic_email_white_24dp"
+            android:title="Invite"/>
+        <item
+         android:id="@+id/nav_update_profile"
+         android:icon="@drawable/ic_system_update_alt_white_24dp"
+         android:title="Update Profile"/>
+
+        <item
+            android:id="@+id/nav_tnc"
+            android:icon="@drawable/ic_description_white_24dp"
+            android:title="Terms and Conditions"/>
+
+        <item
+         android:id="@+id/log_out"
+         android:icon="@drawable/ic_input_white_24dp"
+         android:title="Log out"/>
+
+
+    </group>
+</menu>

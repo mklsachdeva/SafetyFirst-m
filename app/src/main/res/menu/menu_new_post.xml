@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Image -->
+    <item android:id="@+id/image"
+        android:icon="@drawable/ic_photo_camera_white_24dp"
+        android:title="@string/action_image"
+        app:showAsAction="ifRoom" />
+    <!-- File -->
+    <item android:id="@+id/file"
+        android:icon="@drawable/ic_attach_file_white_24dp"
+        android:title="@string/action_file"
+        app:showAsAction="ifRoom"/>
+    <!-- Video -->
+    <item android:id="@+id/video"
+        android:icon="@drawable/ic_videocam_white_24dp"
+        android:title="@string/action_video"
+        app:showAsAction="ifRoom" />
+    <!-- Link -->
+    <item android:id="@+id/link"
+        android:icon="@drawable/ic_link_white_24dp"
+        android:title="@string/action_link"
+       app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_update_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@color/background"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.vikas.dtu.safetyfirst2.mUser.UpdateProfile">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_photo"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:clickable="false"
+        android:onClick="OnClick"
+        android:src="@drawable/ic_action_account_circle_40"/>
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/colorPrimary"
+
+        android:layout_gravity="center"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/phoneTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/company_name"
+        android:background="@drawable/round_red_dark"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="@dimen/md_keylines"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:inputType="text"
+        android:hint="Company Name"
+        android:textColorHint="@color/white"
+        android:maxLines="1"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/designation"
+        android:background="@drawable/round_red_dark"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="@dimen/md_keylines"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:inputType="text"
+        android:hint="Designation"
+        android:textColorHint="@color/white"
+        android:maxLines="1"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/qualification"
+        android:background="@drawable/round_red_dark"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="@dimen/md_keylines"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:inputType="text"
+        android:hint="Qualification"
+        android:textColorHint="@color/white"
+        android:maxLines="1"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/join_as"
+        android:background="@drawable/round_red_dark"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="@dimen/md_keylines"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:inputType="text"
+        android:hint="Join As"
+        android:visibility="gone"
+        android:textColorHint="@color/white"
+        android:maxLines="1"
+        android:textColor="@color/white"/>
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="@dimen/md_keylines"
+        android:layout_marginRight="15dp"
+        android:id="@+id/join"
+        android:prompt="@string/spinner_title"/>
+
+    <EditText
+        android:id="@+id/city"
+        android:background="@drawable/round_red_dark"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="@dimen/md_keylines"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:inputType="text"
+        android:hint="City"
+        android:textColorHint="@color/white"
+        android:maxLines="1"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/md_keylines"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:background="@drawable/round_blue_dark"/>
+
+</LinearLayout>
